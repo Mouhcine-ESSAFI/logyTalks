@@ -447,3 +447,14 @@ form{
   width: 250px;
   border: 1px solid rgb(227, 227, 227);
 }
+
+.animate {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
